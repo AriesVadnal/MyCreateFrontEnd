@@ -1,0 +1,114 @@
+.branding {
+    font-size: 17px;
+    
+}
+
+
+.showcase {
+    background: url(img/freestocks-org-40k6ZqbsXuo-unsplash.jpg) no-repeat center/cover;
+    height: 600px;
+    padding: 140px 100px;
+    color: #fff;
+}
+
+.showcase h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.showcase hr {
+    width: 100px;
+    margin: auto;
+    border-width: 3px;
+    border-color: #f44336;
+}
+
+.showcase p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.section .fa {
+    font-size: 50px;
+}
+
+.section img {
+    width:400px;
+    margin-right: 20px;
+}
+
+.w3-row-padding {
+    display: flex;
+    grid-gap: 2rem;
+}
+
+.w3-col p{
+    font-size: 20px;
+}
+
+footer {
+    background-color: #f44336;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.w3-green {
+    margin-bottom:60px;
+}
+
+/*MEDIA*/
+@media (max-width:700px) {
+    .w3-row-padding{
+        display: block;
+    }
+    
+    .section img {
+        width: 100%;
+    }
+    body {
+        margin-top: 190px;
+    }
+    
+    .showcase {
+        height: 400px;
+        padding: 60px 0;
+    }
+    .w3-bar a{
+        text-align: center;
+        margin-right: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
